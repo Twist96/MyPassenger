@@ -34,4 +34,36 @@
         android:layout_marginTop="100dp"
         android:onClick="start"/>
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stop"
+        android:layout_marginTop="10dp"
+        android:onClick="stop"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bind"
+        android:layout_marginTop="10dp"
+        android:onClick="bind"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="unbind"
+        android:layout_marginTop="10dp"
+        android:onClick="unbind"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get random number"
+        android:layout_marginTop="10dp"
+        android:onClick="getRandomNumber"/>
+
 </LinearLayout>
